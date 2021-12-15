@@ -46,6 +46,9 @@ export class AppComponent {
   constructor(private _fb: FormBuilder, private httpClient: HttpClient) {}
 
   ngOnInit() {
+    this.reactiveForm = this._fb.group({
+      rows: null,
+    });
     this.httpClient.get('assets\\employee.json').subscribe(
       (res) => {
         console.log(res);

@@ -9,9 +9,10 @@
       </tr>
     </thead>
     <tbody formArrayName="rows">
-      <tr *ngFor="let employee of employeeList.responseDataList; let i = index"
-        [formGroupName]="i">
-
+      <tr
+        *ngFor="let employee of employeeList?.responseDataList; let i = index"
+        [formGroupName]="i"
+      >
         <td><input type="checkbox" formControlName="checked" /></td>
         <td>{{ employee.id }}</td>
         <td>{{ employee.name }}</td>
