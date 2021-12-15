@@ -1,0 +1,27 @@
+<form [formGroup]="reactiveForm" (ngSubmit)="onFISubmit()">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Manage</th>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody formArrayName="rows">
+      <tr *ngFor="let employee of employeeList.responseDataList; let i = index"
+        [formGroupName]="i">
+
+        <td><input type="checkbox" formControlName="checked" /></td>
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button class="btn btn-primary" type="submit">Submit</button>
+
+  <p>Real-time data: {{ reactiveForm.value | json }}</p>
+  <p>Your form status is : {{ reactiveForm.status }}</p>
+</form>

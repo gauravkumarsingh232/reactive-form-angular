@@ -1,0 +1,81 @@
+{
+  "responseDataList": [
+    {
+      "id": 1,
+      "name": "Gusty",
+      "email": "gchartre0@twitter.com"
+    },
+    {
+      "id": 2,
+      "name": "Josselyn",
+      "email": "jissakov1@de.vu"
+    },
+    {
+      "id": 3,
+      "name": "Deanne",
+      "email": "dbonney2@yellowbook.com"
+    },
+    {
+      "id": 4,
+      "name": "Alberik",
+      "email": "ashoppee3@guardian.co.uk"
+    },
+    {
+      "id": 5,
+      "name": "Katerine",
+      "email": "kburford4@nhs.uk"
+    },
+    {
+      "id": 6,
+      "name": "Pierre",
+      "email": "ppeerman5@bravesites.com"
+    },
+    {
+      "id": 7,
+      "name": "Danika",
+      "email": "dagglione6@mozilla.org"
+    },
+    {
+      "id": 8,
+      "name": "Heloise",
+      "email": "hbone7@msn.com"
+    },
+    {
+      "id": 9,
+      "name": "Alleyn",
+      "email": "asorsby8@google.com.hk"
+    },
+    {
+      "id": 10,
+      "name": "Waly",
+      "email": "wadrian9@ovh.net"
+    },
+    {
+      "id": 11,
+      "name": "Reilly",
+      "email": "rrussama@e-recht24.de"
+    },
+    {
+      "id": 12,
+      "name": "Calv",
+      "email": "ccasperb@rediff.com"
+    },
+    {
+      "id": 13,
+      "name": "Gardener",
+      "email": "gwaycotc@shinystat.com"
+    },
+    {
+      "id": 14,
+      "name": "Kandace",
+      "email": "klillgardd@nifty.com"
+    },
+    {
+      "id": 15,
+      "name": "Woodman",
+      "email": "wbielbye@blogs.com"
+    }
+  ],
+  "errorMessage": "",
+  "statusCode": 0
+}
